@@ -183,8 +183,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       '@interledger/openapi':
-        specifier: 2.0.2
-        version: 2.0.2
+        specifier: 2.0.3
+        version: 2.0.3
       '@koa/cors':
         specifier: ^5.0.0
         version: 5.0.0
@@ -334,8 +334,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       '@interledger/openapi':
-        specifier: 2.0.2
-        version: 2.0.2
+        specifier: 2.0.3
+        version: 2.0.3
       '@interledger/pay':
         specifier: 0.4.0-alpha.9
         version: 0.4.0-alpha.9
@@ -730,8 +730,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       '@interledger/openapi':
-        specifier: 2.0.2
-        version: 2.0.2
+        specifier: 2.0.3
+        version: 2.0.3
       axios:
         specifier: ^1.8.2
         version: 1.8.2(debug@4.3.2)
@@ -5558,22 +5558,6 @@ packages:
       uuid: 9.0.1
     transitivePeerDependencies:
       - supports-color
-
-  /@interledger/openapi@2.0.2:
-    resolution: {integrity: sha512-HOQnALmRtRkGkh63OnFhoCVsK4BKhQosJyoBCe6Cuu+jp8Oj2fAqTNz8ys+h6s30cJcIpk2UBlsj4wZ3pj26Ug==}
-    dependencies:
-      '@apidevtools/json-schema-ref-parser': 11.7.2
-      ajv: 8.17.1
-      ajv-formats: 2.1.1(ajv@8.17.1)
-      koa: 2.16.0
-      openapi-default-setter: 12.1.3
-      openapi-request-coercer: 12.1.3
-      openapi-request-validator: 12.1.3
-      openapi-response-validator: 12.1.3
-      openapi-types: 12.1.3
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /@interledger/openapi@2.0.3:
     resolution: {integrity: sha512-5wGncgpc/WVHd+RNE9oZHzdNdZK8UjaOqLmMnPm6kyNfXBtcZmDOumE00jEYa4BOXbaIm82qB4zD/dLc46AjRA==}
@@ -15555,7 +15539,7 @@ packages:
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookies: 0.9.1
-      debug: 4.4.0(supports-color@9.4.0)
+      debug: 4.4.1
       delegates: 1.0.0
       depd: 2.0.0
       destroy: 1.2.0
